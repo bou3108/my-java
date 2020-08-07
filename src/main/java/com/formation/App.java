@@ -14,6 +14,7 @@ public class App {
 			System.exit(0);
 		}
 		System.out.println(sha256(args[0]));
+		System.out.println("Test intégration continue Jenkins");
 	}
 	
 	public static String sha256(String input) {
